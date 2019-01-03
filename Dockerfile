@@ -10,7 +10,7 @@ RUN apt-get install -y nodejs
 RUN npm install --global yarn
 
 # Install bundler
-RUN gem install bundler --no-ri --no-rdoc
+RUN gem install bundler
 
 # Install chromedirver
 ENV CHROMEDRIVER_VERSION=2.36 
